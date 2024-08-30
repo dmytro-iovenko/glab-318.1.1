@@ -1,0 +1,17 @@
+{
+  "name": "sample-project",
+  "version": "1.0.0",
+  "description": "A sample project demonstrating the functionality of Node and npm.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "sample-project": "file:"
+  }
+}
